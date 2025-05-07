@@ -3,45 +3,80 @@
 .color3 {color: #096bb4;}
 .color4 {color: #08b9ff;}
 .color5 {color: #0efff9;}
+
+
 body{
-    background-color: #0efff9;
+    padding: 0;
+    margin: 0%;
+    background-color: #b5ffe1;
     display: flex;
     flex-direction: column;
     font-family: monospace;
+    
 }
 #logo{
-    max-width: 15%;
+    max-width: 20%;
     min-width: 7%s;
-    max-height: 15%;
+    max-height: 20%;
     min-height: 7%;
 }
 #encabezado{
-    display: inline-flex;
+    background-color: #ebbab9 ;
+    color: #cc2936;
+    display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    padding: 5px;
 }
 
 #titulo{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
-    max-width: 50%;
+    justify-content: space-evenly;
+    max-width: 60%;
     font-size: 130%;
 }
 #navegacion{
-    border: 3px solid #102848;
+    color: #cc2936;
     border-radius: 10px;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: space-around;
-    min-width: 70%;
+    min-width: 80%;
     padding: 5px;
 }
+@media (max-width: 720px) {
+    #navegacion{
+        border: 3px solid #102848;
+        border-radius: 10px;
+        display: inline-flex;
+        flex-direction: row;
+        min-width: 100%;
+        padding: 5px;
+    }
+    #encabezado{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #titulo{
+        flex-direction: row;
+        justify-content: center;
+    }
+    #logo{
+        display: none;
+    }
+}
+
+
 #navegacion a{
+    color: #cc2936;
+
     font-size: 180%;
-    border: 3px solid #102848;
+    border: 3px solid #388697;
     padding: 0.3%;
     border-radius: 5px;
     text-decoration: none;
@@ -63,6 +98,7 @@ body{
 #contenido li{
     padding: 25px;
 }
+
 #formulario {
     
         display: flex;
@@ -110,7 +146,6 @@ body{
 #productos {
     display: flex;
     flex-direction: column;
-    padding: 10px;
     justify-content: center;
     
 }
