@@ -1,0 +1,16 @@
+
+    button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    }
+    button:nth-child(1) { background-color: #28a745; color: white; }
+    button:nth-child(2) { background-color: #007bff; color: white; }
+    button:nth-child(3) { background-color: #ffc107; color: white; }
+    button:nth-child(4) { background-color: #dc3545; color: white; }
+    button:hover {
+    opacity: 0.8;
+    }

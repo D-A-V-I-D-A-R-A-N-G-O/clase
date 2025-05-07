@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initialscale=1.0">
+<title>CRUD Básico</title>
+<link rel="stylesheet" href="../styles/boton.css">
+<link rel="stylesheet" href="../styles/css.css">
+
+</head>
+<body>
+    <div id="encabezado">
+        <button id="navegacion">
+            <a href="botones.html" class="boton">BOTONES</a>
+        </button>
+        <button id="navegacion">
+            <a href="listas.html" class="boton">LISTAS</a>
+        </button>
+
+        <button id="navegacion">            
+            <a href="/html/inicio.html" class="boton">INICIO</a>
+        </button>
+            <button id="navegacion">           
+                <a href="/html/formulario.html"   class="boton">FORMULARIO</a>
+           </button>
+            <button id="navegacion">           
+             <a href="/html/titulos.html"   class="boton">TITULOS</a>
+        </button>
+        
+</div>
+<h2>CRUD de Usuarios</h2>
+<button onclick="crearRegistro()">Crear</button>
+<button onclick="leerRegistros()">Leer</button>
+<button onclick="actualizarRegistro()">Actualizar</button>
+<button onclick="eliminarRegistro()">Eliminar</button>
+<div id="resultado"></div>
+<script src="script.js"></script>
+</body>
+</html>
