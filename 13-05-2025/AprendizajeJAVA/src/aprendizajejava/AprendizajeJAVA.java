@@ -29,6 +29,12 @@ public class AprendizajeJAVA {
         int decada = edad - 10;
         System.out.println(nombre + ' ' + apellido + " tu edad es: " + edad);        // TODO code application logic here
         System.out.println("Hace una decada tenias " + decada);
+        double radio, pi, area;
+        pi = 3.1416;
+        System.out.println("ingresa el radio");
+        radio = entrada.nextInt();
+        area = pi*radio*radio;
+        System.out.println("el area del circulo es "+ area);
     }
     
 }
