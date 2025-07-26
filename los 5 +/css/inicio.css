@@ -1,0 +1,19 @@
+body{
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#navegacion { 
+    display: flex;
+    justify-content: space-around;
+}
+.btn{
+  display: inline-block;
+  padding: 10px;
+  border: 2px solid black;
+  text-decoration: none;
+  color: blue;
+  border-radius: 5px;
+}
