@@ -1,0 +1,20 @@
+body{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    font-family:monospace;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    font-size: 200%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 3px solid salmon;
+}
+a:hover {
+    font-size: 300%;
+    background-color: burlywood;
+    text-transform: uppercase;
+}
