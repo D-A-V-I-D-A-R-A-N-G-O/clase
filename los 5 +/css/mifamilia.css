@@ -6,12 +6,15 @@ body{
     align-items: center;
 }
 a {
+    color: blue;
     text-decoration: none;
     font-size: 200%;
     margin: 10px;
     padding: 10px;
     border-radius: 5px;
     border: 3px solid salmon;
+    transform: scale(1);
+      transition: transform 0.5s ease;
 
 }
 a:hover {
