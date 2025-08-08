@@ -7,33 +7,36 @@ body{
     justify-content: center;
     background-color: burlywood;
     font-family: "Bitcount", system-ui;
+    font-size: 140%;
 }
 img {
     max-width:300px;
     max-height: 300px;
     border: 10px solid #ff0000;
     border-radius: 20px;
-    font-weight: 200;
-
+    margin: 20px;
+    
 }
 #personaje{
+    text-align: center;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: self-start;
     height: 100%;
-    width: 1300px;
+    width: 1000px;
     justify-content:space-evenly;
     font-size: 115%;
 }
 .valores{
     display: flex;
     flex-direction: column;
+    text-align: center;
     align-items: start;
-    width: 530px;
+    width: 560px;
 }
 #back{
     color:cadetblue;
-    margin: 20px;
+    
     border-radius: 10px;
     font-size: 150%;
     padding: 5px;
@@ -42,4 +45,10 @@ img {
 }
 .valores h3{
     color: brown;
+}
+#img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }

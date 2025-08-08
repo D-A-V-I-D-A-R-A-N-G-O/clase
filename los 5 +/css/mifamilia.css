@@ -1,4 +1,5 @@
 body{
+  font-size: 150%;
     background-color: aqua;
     display: flex;
     flex-direction: column;
@@ -6,6 +7,7 @@ body{
     align-items: center;
 }
 a {
+  text-align: center;
     color: blue;
     text-decoration: none;
     font-size: 200%;
@@ -15,6 +17,7 @@ a {
     border: 3px solid salmon;
     transform: scale(1);
       transition: transform 0.5s ease;
+      width: 415px;
 
 }
 a:hover {
@@ -23,4 +26,8 @@ a:hover {
     transform: scale(1.2);
       transition: transform 0.5s ease;
 
+}
+h1 {
+    font-size: 325%;
+    text-transform: uppercase;
 }

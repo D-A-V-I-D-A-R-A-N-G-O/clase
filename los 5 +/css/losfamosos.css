@@ -5,8 +5,11 @@ body{
     font-family:fantasy;
     align-items: center;
     color: whitesmoke;
+    font-size: 120%;
 }
 a {
+    text-align: center;
+    width: 250px;
     color: blue;
     text-decoration: none;
     font-size: 200%;
@@ -23,4 +26,8 @@ a:hover {
     text-transform: uppercase;
     transform: scale(1.2);
       transition: transform 0.3s ease;
+}
+h1 {
+    font-size: 325%;
+    text-transform: uppercase;
 }
